@@ -1,0 +1,414 @@
+@charset "UTF-8";
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+/** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+/* line 9, ../scss/_normalize.scss */
+html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+
+/** Remove default margin. */
+/* line 19, ../scss/_normalize.scss */
+body { margin: 0; }
+
+/* HTML5 display definitions ========================================================================== */
+/** Correct `block` display not defined for any HTML5 element in IE 8/9. Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox. Correct `block` display not defined for `main` in IE 11. */
+/* line 45, ../scss/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+/** 1. Correct `inline-block` display not defined in IE 8/9. 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera. */
+/* line 57, ../scss/_normalize.scss */
+audio, canvas, progress, video { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
+
+/** Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
+/* line 67, ../scss/_normalize.scss */
+audio:not([controls]) { display: none; height: 0; }
+
+/** Address `[hidden]` styling not present in IE 8/9/10. Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22. */
+/* line 78, ../scss/_normalize.scss */
+[hidden], template { display: none; }
+
+/* Links ========================================================================== */
+/** Remove the gray background color from active links in IE 10. */
+/* line 89, ../scss/_normalize.scss */
+a { background-color: transparent; }
+
+/** Improve readability when focused and also mouse hovered in all browsers. */
+/* line 98, ../scss/_normalize.scss */
+a:active, a:hover { outline: 0; }
+
+/* Text-level semantics ========================================================================== */
+/** Address styling not present in IE 8/9/10/11, Safari, and Chrome. */
+/* line 109, ../scss/_normalize.scss */
+abbr[title] { border-bottom: 1px dotted; }
+
+/** Address style set to `bolder` in Firefox 4+, Safari, and Chrome. */
+/* line 118, ../scss/_normalize.scss */
+b, strong { font-weight: bold; }
+
+/** Address styling not present in Safari and Chrome. */
+/* line 126, ../scss/_normalize.scss */
+dfn { font-style: italic; }
+
+/** Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari, and Chrome. */
+/* line 135, ../scss/_normalize.scss */
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+/** Address styling not present in IE 8/9. */
+/* line 144, ../scss/_normalize.scss */
+mark { background: #ff0; color: #000; }
+
+/** Address inconsistent and variable font size in all browsers. */
+/* line 153, ../scss/_normalize.scss */
+small { font-size: 80%; }
+
+/** Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+/* line 162, ../scss/_normalize.scss */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 169, ../scss/_normalize.scss */
+sup { top: -0.5em; }
+
+/* line 173, ../scss/_normalize.scss */
+sub { bottom: -0.25em; }
+
+/* Embedded content ========================================================================== */
+/** Remove border when inside `a` element in IE 8/9/10. */
+/* line 184, ../scss/_normalize.scss */
+img { border: 0; }
+
+/** Correct overflow not hidden in IE 9/10/11. */
+/* line 192, ../scss/_normalize.scss */
+svg:not(:root) { overflow: hidden; }
+
+/* Grouping content ========================================================================== */
+/** Address margin not present in IE 8/9 and Safari. */
+/* line 203, ../scss/_normalize.scss */
+figure { margin: 1em 40px; }
+
+/** Address differences between Firefox and other browsers. */
+/* line 211, ../scss/_normalize.scss */
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+
+/** Contain overflow in all browsers. */
+/* line 221, ../scss/_normalize.scss */
+pre { overflow: auto; }
+
+/** Address odd `em`-unit font size rendering in all browsers. */
+/* line 232, ../scss/_normalize.scss */
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+
+/* Forms ========================================================================== */
+/** Known limitation: by default, Chrome and Safari on OS X allow very limited styling of `select`, unless a `border` property is set. */
+/** 1. Correct color not being inherited. Known issue: affects color of disabled elements. 2. Correct font properties not being inherited. 3. Address margins set differently in Firefox 4+, Safari, and Chrome. */
+/* line 256, ../scss/_normalize.scss */
+button, input, optgroup, select, textarea { color: inherit; /* 1 */ font: inherit; /* 2 */ margin: 0; /* 3 */ }
+
+/** Address `overflow` set to `hidden` in IE 8/9/10/11. */
+/* line 266, ../scss/_normalize.scss */
+button { overflow: visible; }
+
+/** Address inconsistent `text-transform` inheritance for `button` and `select`. All other form control elements do not inherit `text-transform` values. Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera. Correct `select` style inheritance in Firefox. */
+/* line 278, ../scss/_normalize.scss */
+button, select { text-transform: none; }
+
+/** 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` and `video` controls. 2. Correct inability to style clickable `input` types in iOS. 3. Improve usability and consistency of cursor style between image-type `input` and others. */
+/* line 293, ../scss/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */ }
+
+/** Re-set default cursor for disabled elements. */
+/* line 303, ../scss/_normalize.scss */
+button[disabled], html input[disabled] { cursor: default; }
+
+/** Remove inner padding and border in Firefox 4+. */
+/* line 312, ../scss/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/** Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet. */
+/* line 322, ../scss/_normalize.scss */
+input { line-height: normal; }
+
+/** It's recommended that you don't attempt to style these elements. Firefox's implementation doesn't respect box-sizing, padding, or width.  1. Address box sizing set to `content-box` in IE 8/9/10. 2. Remove excess padding in IE 8/9/10. */
+/* line 335, ../scss/_normalize.scss */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+
+/** Fix the cursor style for Chrome's increment/decrement buttons. For certain `font-size` values of the `input`, it causes the cursor style of the decrement button to change from `default` to `text`. */
+/* line 347, ../scss/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/** 1. Address `appearance` set to `searchfield` in Safari and Chrome. 2. Address `box-sizing` set to `border-box` in Safari and Chrome (include `-moz` to future-proof). */
+/* line 357, ../scss/_normalize.scss */
+input[type="search"] { -webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box; }
+
+/** Remove inner padding and search cancel button in Safari and Chrome on OS X. Safari (but not Chrome) clips the cancel button when the search input has padding (and `textfield` appearance). */
+/* line 371, ../scss/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/** Define consistent border, margin, and padding. */
+/* line 379, ../scss/_normalize.scss */
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+/** 1. Correct `color` not being inherited in IE 8/9/10/11. 2. Remove padding so people aren't caught out if they zero out fieldsets. */
+/* line 390, ../scss/_normalize.scss */
+legend { border: 0; /* 1 */ padding: 0; /* 2 */ }
+
+/** Remove default vertical scrollbar in IE 8/9/10/11. */
+/* line 399, ../scss/_normalize.scss */
+textarea { overflow: auto; }
+
+/** Don't inherit the `font-weight` (applied by a rule above). NOTE: the default cannot safely be changed in Chrome and Safari on OS X. */
+/* line 408, ../scss/_normalize.scss */
+optgroup { font-weight: bold; }
+
+/* Tables ========================================================================== */
+/** Remove most spacing between table cells. */
+/* line 419, ../scss/_normalize.scss */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 425, ../scss/_normalize.scss */
+td, th { padding: 0; }
+
+@font-face { font-family: 'league_gothicregular'; src: url("../fonts/league-gothic.regular-webfont.eot"); src: url("../fonts/league-gothic.regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/league-gothic.regular-webfont.woff") format("woff"), url("../fonts/league-gothic.regular-webfont.ttf") format("truetype"), url("../fonts/league-gothic.regular-webfont.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'opensans_regular'; src: url("../fonts/OpenSans-Regular.eot"); src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'opensans_condbold'; src: url("../fonts/OpenSans-CondBold.eot"); src: url("../fonts/OpenSans-CondBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-CondBold.woff") format("woff"), url("../fonts/OpenSans-CondBold.ttf") format("truetype"), url("../fonts/OpenSans-CondBold.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+/* line 1, ../scss/_general.scss */
+body { font-size: 12px; }
+
+/* IE8 fix for nav, header and article */
+/* line 6, ../scss/_general.scss */
+nav, header, article { display: block; }
+
+/* EO IE8 fix */
+/* line 11, ../scss/_general.scss */
+#body-border { display: none; position: absolute; top: 0; bottom: 0; left: 0; width: 2px; background-color: #000; }
+
+/* line 21, ../scss/_general.scss */
+.company-name-desktop { display: none; }
+
+/* line 25, ../scss/_general.scss */
+#user-menu { display: none; margin: 0; padding: 0; list-style: none; background-color: #0e4d8c; text-align: center; text-transform: uppercase; font-weight: bold; }
+/* line 34, ../scss/_general.scss */
+#user-menu a { display: block; padding: 7px; border-bottom: 1px solid white; color: white; text-decoration: none; }
+/* line 41, ../scss/_general.scss */
+#user-menu .search { padding-right: 30px; background: url("../images/search-icon.png") 55% 50% no-repeat; }
+
+/* line 47, ../scss/_general.scss */
+.account-link { text-transform: capitalize; }
+
+/* line 51, ../scss/_general.scss */
+.main-section { position: relative; overflow: hidden; background-color: #fff; }
+
+/* line 57, ../scss/_general.scss */
+.main-section-row { width: 100%; overflow: hidden; font-family: league_gothicregular, sans-serif; text-transform: capitalize; color: #0e4d8c; font-size: 2.5em; }
+
+/* line 66, ../scss/_general.scss */
+.top-row { display: table; }
+/* line 68, ../scss/_general.scss */
+.top-row > div { display: table-cell; }
+
+/* line 74, ../scss/_general.scss */
+.top-row > div { border-bottom: 1px solid #e4e4e4; text-align: center; }
+
+/* line 80, ../scss/_general.scss */
+.company-logo { width: 17.5%; background: url("../images/top-arrow.png") 92% 50% no-repeat; vertical-align: middle; }
+/* line 84, ../scss/_general.scss */
+.company-logo a { display: block; }
+/* line 86, ../scss/_general.scss */
+.company-logo a img { width: 48%; max-width: 48px; padding-top: 5px; }
+
+/* line 94, ../scss/_general.scss */
+.company-name { width: 65%; border-style: solid; border-width: 0 1px; border-color: #e4e4e4; }
+/* line 99, ../scss/_general.scss */
+.company-name a { padding: 12px 10px 5px; display: inline-block; }
+
+/* line 105, ../scss/_general.scss */
+.mobile-menu-hamburger { background: url("../images/mobile-menu.png") 50% 50% no-repeat; }
+
+/* line 109, ../scss/_general.scss */
+.middle-row { border-top: 1px solid #f9f9f9; }
+/* line 111, ../scss/_general.scss */
+.middle-row .label { display: none; font-family: opensans_regular, sans-serif; }
+
+/* line 117, ../scss/_general.scss */
+.departure-from, .departure-to { float: left; width: 50%; border-bottom: 1px solid #f9f9f9; background: url("../images/right-arrow.png") 95% 25px no-repeat; }
+/* line 122, ../scss/_general.scss */
+.departure-from .departure-text-wrapper, .departure-to .departure-text-wrapper { padding-top: 5px; text-align: center; }
+/* line 126, ../scss/_general.scss */
+.departure-from .icon, .departure-to .icon { display: inline-block; padding: 11px; margin: 14px 9px 14px 2px; }
+/* line 131, ../scss/_general.scss */
+.departure-from .value, .departure-to .value { display: inline-block; max-width: 63%; padding: 13px 2px 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; vertical-align: top; line-height: .9em; }
+
+/* line 143, ../scss/_general.scss */
+.departure-from { margin-right: -1px; border-right: 1px solid #e4e4e4; }
+/* line 146, ../scss/_general.scss */
+.departure-from .icon { background: url("../images/departure-from.png") 0 0 no-repeat; background-size: auto 100%; }
+
+/* line 153, ../scss/_general.scss */
+.departure-to .icon { background: url("../images/departure-to.png") 0 0 no-repeat; background-size: auto 100%; }
+/* line 157, ../scss/_general.scss */
+.departure-to .drop-down { border-left: 1px solid #e4e4e4; }
+
+/* line 162, ../scss/_general.scss */
+.drop-down { clear: both; display: none; padding: 10px; border-top: 1px solid #f9f9f9; text-align: center; }
+
+/* line 170, ../scss/_general.scss */
+.bottom-row { border-top: 1px solid #e4e4e4; }
+/* line 172, ../scss/_general.scss */
+.bottom-row > div { float: left; }
+/* line 175, ../scss/_general.scss */
+.bottom-row .selectable-menu { width: 25%; margin-right: -1px; border-right: 1px solid #e4e4e4; border-bottom: 1px solid #f9f9f9; }
+/* line 180, ../scss/_general.scss */
+.bottom-row .selectable-menu > span { display: block; }
+/* line 184, ../scss/_general.scss */
+.bottom-row .drop-down { padding: 2px 15px; border-left: 1px solid; border-color: #e4e4e4; font-size: .8em; }
+/* line 190, ../scss/_general.scss */
+.bottom-row .label { margin: 2px 2px 0 15%; padding-bottom: 1px; font-family: opensans_regular, sans-serif; font-size: .4em; }
+/* line 196, ../scss/_general.scss */
+.bottom-row .value { margin: 0 2px 3px 15%; line-height: .9em; }
+/* line 200, ../scss/_general.scss */
+.bottom-row .with-value { margin-bottom: 7px; padding: 12px 15px 11px 14px; background: url("../images/with.png") 0 0 no-repeat; background-size: auto 100%; }
+
+/* line 208, ../scss/_general.scss */
+#leita { width: 25%; }
+/* line 210, ../scss/_general.scss */
+#leita span { display: block; padding: 8px 0; background-color: #0e4d8c; color: #fff; text-transform: uppercase; text-align: center; font-size: .9em; }
+
+/* line 221, ../scss/_general.scss */
+.slide-content { position: absolute; bottom: 6%; left: 5%; right: 5%; }
+/* line 226, ../scss/_general.scss */
+.slide-content h3 { max-width: 90%; margin: 0; font-family: opensans_condbold, sans-serif; color: white; text-transform: uppercase; font-size: 2.5em; line-height: 0.8em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* line 238, ../scss/_general.scss */
+.slide-content .subheading { display: none; color: white; font-size: 1.2em; }
+/* line 243, ../scss/_general.scss */
+.slide-content .prices { display: inline-block; font-size: 1.45em; font-family: opensans_regular, sans-serif; color: #ffb900; text-transform: uppercase; text-decoration: none; }
+/* line 250, ../scss/_general.scss */
+.slide-content .prices .price { font-family: opensans_condbold, sans-serif; }
+/* line 254, ../scss/_general.scss */
+.slide-content .prices-at { text-transform: lowercase; }
+
+/* BX-Slider-related styles to override original slider styles */
+/* line 260, ../scss/_general.scss */
+.bx-wrapper { position: absolute; top: 145px; left: 0; right: 0; z-index: -1; overflow: hidden; max-height: 680px; margin: 0; }
+
+/* line 270, ../scss/_general.scss */
+.bx-wrapper img { width: 100%; }
+
+/* line 273, ../scss/_general.scss */
+.bx-wrapper .bx-pager { right: 5%; bottom: 8%; width: auto; }
+
+/* line 278, ../scss/_general.scss */
+.bx-wrapper .bx-pager .bx-pager-item { width: 17px; height: 7px; }
+
+/* line 282, ../scss/_general.scss */
+.bx-wrapper .bx-pager.bx-default-pager a { display: inline-block; width: 7px; height: 7px; margin: 5px 0 0; background-color: #fff; vertical-align: middle; }
+
+/* line 290, ../scss/_general.scss */
+.bx-wrapper .bx-pager.bx-default-pager a.active { width: 12px; height: 12px; border-radius: 8px; background: #ffb900; }
+
+/* line 296, ../scss/_general.scss */
+.bx-wrapper .bx-pager.bx-default-pager a:hover { background: #ffb900; }
+
+/* line 299, ../scss/_general.scss */
+.bxslider { margin: 0; }
+/* line 301, ../scss/_general.scss */
+.bxslider li { max-height: 680px; }
+
+/* EO BX-Slider-related styles */
+@media only screen and (min-width: 640px) { /* line 2, ../scss/_breakpoints.scss */
+  .bx-wrapper { top: 65px; } }
+@media only screen and (min-width: 800px) { /* line 8, ../scss/_breakpoints.scss */
+  body { font-size: 14px; }
+  /* line 12, ../scss/_breakpoints.scss */
+  .bottom-row .with-value { margin: 0 2px 11px 15%; }
+  /* line 16, ../scss/_breakpoints.scss */
+  .slide-content .subheading { display: block; max-width: 50%; margin: 10px 0; }
+  /* line 22, ../scss/_breakpoints.scss */
+  .slide-content { bottom: 15%; }
+  /* line 26, ../scss/_breakpoints.scss */
+  .bx-wrapper { top: 40px; } }
+@media only screen and (min-width: 1024px) { /* line 32, ../scss/_breakpoints.scss */
+  body { font-size: 14px; }
+  /* line 36, ../scss/_breakpoints.scss */
+  #body-border { display: block; }
+  /* line 40, ../scss/_breakpoints.scss */
+  .user-menu-wrapper { background-color: rgba(0, 75, 142, 0.8); }
+  /* line 44, ../scss/_breakpoints.scss */
+  .company-name-desktop { display: block; float: left; margin-left: 7%; padding: 12px 10px 8px 1px; }
+  /* line 51, ../scss/_breakpoints.scss */
+  #user-menu { display: block; margin: 0 7% 0 0; background: none; overflow: hidden; text-align: center; text-transform: uppercase; font-weight: normal; }
+  /* line 59, ../scss/_breakpoints.scss */
+  #user-menu a { float: right; margin: 15px 0 15px 20px; padding: 0; border-bottom: none; color: white; }
+  /* line 66, ../scss/_breakpoints.scss */
+  #user-menu .account-link { padding: 0 30px 0 20px; border-left: 1px solid #bfd2e2; background: url("../images/account-arrow.png") 90% 50% no-repeat; }
+  /* line 71, ../scss/_breakpoints.scss */
+  #user-menu .search { background-position: 100% 50%; }
+  /* line 76, ../scss/_breakpoints.scss */
+  .main-section { height: 96px; overflow: visible; }
+  /* line 81, ../scss/_breakpoints.scss */
+  .main-section-row { display: block; float: left; height: 96px; overflow: visible; text-transform: uppercase; }
+  /* line 87, ../scss/_breakpoints.scss */
+  .main-section-row > div { height: 96px; }
+  /* line 90, ../scss/_breakpoints.scss */
+  .main-section-row .label { margin-top: 10px; font-size: .35em; font-weight: bold; text-align: center; }
+  /* line 96, ../scss/_breakpoints.scss */
+  .main-section-row .selectable-menu { position: relative; background: url("../images/bottom-arrow.png") 50% 90% no-repeat; cursor: pointer; }
+  /* line 100, ../scss/_breakpoints.scss */
+  .main-section-row .selectable-menu .drop-down { position: absolute; top: 96px; left: 0; right: 0; z-index: 2; background-color: #fff; border: 1px solid #bfd2e2; }
+  /* line 112, ../scss/_breakpoints.scss */
+  .top-row { width: 8%; margin-left: 7%; border-width: 0 1px; border-style: solid; border-color: #bfd2e2; }
+  /* line 118, ../scss/_breakpoints.scss */
+  .top-row > div { border-bottom: none; }
+  /* line 123, ../scss/_breakpoints.scss */
+  .middle-row { width: 36%; border-top: none; }
+  /* line 126, ../scss/_breakpoints.scss */
+  .middle-row .departure-from { border-color: #bfd2e2; }
+  /* line 129, ../scss/_breakpoints.scss */
+  .middle-row .departure-from, .middle-row .departure-to { border-bottom: none; }
+  /* line 131, ../scss/_breakpoints.scss */
+  .middle-row .departure-from .icon, .middle-row .departure-to .icon { margin: 14px 5px 14px 2px; padding: 16px 17px 15px; }
+  /* line 136, ../scss/_breakpoints.scss */
+  .middle-row .label { display: block; }
+  /* line 141, ../scss/_breakpoints.scss */
+  .bottom-row { width: 42%; border-right: 1px solid #bfd2e2; border-top: none; }
+  /* line 145, ../scss/_breakpoints.scss */
+  .bottom-row > div { border-left: 1px solid #bfd2e2; }
+  /* line 148, ../scss/_breakpoints.scss */
+  .bottom-row .selectable-menu { border-bottom: none; }
+  /* line 151, ../scss/_breakpoints.scss */
+  .bottom-row .label { margin-left: 2px; }
+  /* line 154, ../scss/_breakpoints.scss */
+  .bottom-row .value { margin: 2px; padding: 8px 0; line-height: 1em; text-align: center; }
+  /* line 160, ../scss/_breakpoints.scss */
+  .bottom-row .with-value { padding: 15px 20px; background-position: 50% 0; }
+  /* line 164, ../scss/_breakpoints.scss */
+  .bottom-row .drop-down { font-size: 1em; }
+  /* line 169, ../scss/_breakpoints.scss */
+  #leita { width: 24%; text-align: center; }
+  /* line 172, ../scss/_breakpoints.scss */
+  #leita span { display: inline-block; margin-top: 22px; padding: 7px 25px 6px; border: 1px solid #bfd2e2; }
+  /* line 180, ../scss/_breakpoints.scss */
+  .company-logo { background: none; }
+  /* line 185, ../scss/_breakpoints.scss */
+  .top-row .company-name, .top-row .mobile-menu-hamburger { display: none; }
+  /* line 190, ../scss/_breakpoints.scss */
+  .slide-content { position: absolute; bottom: 25%; text-align: center; }
+  /* line 194, ../scss/_breakpoints.scss */
+  .slide-content h3 { max-width: 100%; font-size: 4.5em; line-height: 1.2em; }
+  /* line 199, ../scss/_breakpoints.scss */
+  .slide-content .subheading { display: block; max-width: 34%; margin: 0 auto; }
+  /* line 204, ../scss/_breakpoints.scss */
+  .slide-content .prices { margin-top: 17px; padding: 10px 20px; color: white; font-family: opensans_condbold, sans-serif; font-size: 1.7em; background: url("../images/price-arrow.png") 96% 50% no-repeat #ffb900; }
+  /* line 212, ../scss/_breakpoints.scss */
+  .slide-content .prices-at { text-transform: uppercase; }
+  /* BX-Slider-related styles */
+  /* line 218, ../scss/_breakpoints.scss */
+  .bx-wrapper { top: 0; left: 2px; }
+  /* line 222, ../scss/_breakpoints.scss */
+  .bx-wrapper .bx-pager { right: 87px; bottom: 30px; }
+  /* line 226, ../scss/_breakpoints.scss */
+  .bx-wrapper .bx-pager .bx-pager-item { width: 22px; height: 18px; }
+  /* line 230, ../scss/_breakpoints.scss */
+  .bx-wrapper .bx-pager.bx-default-pager a { width: 10px; height: 10px; margin: 4px 0 0; }
+  /* line 235, ../scss/_breakpoints.scss */
+    .bx-wrapper .bx-pager.bx-default-pager a.active { width: 16px; height: 16px; }
+    /* EO BX-Slider-related styles to override original slider styles */ }

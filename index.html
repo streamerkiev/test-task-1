@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test task</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie8-style.css">
+        <script>
+            document.createElement('header');
+            document.createElement('nav');
+            document.createElement('article');
+        </script>
+    <![endif]-->
+</head>
+<body>
+    <div id="body-border"></div>
+    <div class="user-menu-wrapper">
+        <a href="#" class="company-name-desktop">
+            <img src="images/company-name-desktop.png" alt="heimsferðir"/>
+        </a>
+        <nav id="user-menu">
+            <a href="#" class="account-link">hi samantha</a>
+            <a href="#" class="search">info</a>
+            <a href="#">deals</a>
+            <a href="#">interests</a>
+            <a href="#">destinations</a>
+        </nav>
+    </div>
+    <header class="main-section">
+        <div class="top-row main-section-row">
+            <div class="company-logo">
+                <a href="#">
+                    <img src="images/company-logo.png" alt="heimsferðir logo"/>
+                </a>
+            </div>
+            <div class="company-name">
+                <a href="#">
+                    <img src="images/company-name-mobile.png" alt="heimsferðir"/>
+                </a>
+            </div>
+            <div class="mobile-menu-hamburger">
+            </div>
+        </div>
+        <div class="middle-row main-section-row">
+            <div class="departure-from selectable-menu">
+                <span class="label">from</span>
+                <div class="departure-text-wrapper">
+                    <span class="icon"></span>
+                    <span class="value">reikjavik</span>
+                </div>
+                <div class="drop-down">another city to depart from</div>
+            </div>
+            <div class="departure-to selectable-menu">
+                <span class="label">to</span>
+                <div class="departure-text-wrapper">
+                    <span class="icon"></span>
+                    <span class="value">costa del sol</span>
+                </div>
+                <div class="drop-down">another city to depart to</div>
+            </div>
+        </div>
+        <div class="bottom-row main-section-row">
+            <div class="selectable-menu">
+                <span class="label">date</span>
+                <span class="value">8 sep</span>
+                <div class="drop-down">select date</div>
+            </div>
+            <div class="selectable-menu">
+                <span class="label">duration</span>
+                <span class="value">2wk</span>
+                <div class="drop-down">select duration</div>
+            </div>
+            <div class="selectable-menu">
+                <span class="label">with</span>
+                <span class="with-value value"></span>
+                <div class="drop-down">select people</div>
+            </div>
+            <div id="leita">
+                <span>leita</span>
+            </div>
+        </div>
+    </header>
+    <ul class="bxslider">
+        <li>
+            <article class="slide-content">
+                <h3>the danish west indies</h3>
+                <span class="subheading">
+                    Neque porro quisquam est qui dolorem ipsumquia dolor sit amet, consectetur, adipisci velit
+                </span>
+                <a href="#" class="prices">trips starting <span class="prices-at">at</span> <span class="price">299€</span></a>
+            </article>
+            <img src="images/pic1.jpg" alt="image 1">
+        </li>
+        <li>
+            <article class="slide-content">
+                <h3>another place to rest</h3>
+                    <span class="subheading">
+                        Neque porro quisquam est qui dolorem ipsumquia dolor sit amet, consectetur, adipisci velit
+                    </span>
+                <a href="#" class="prices">trips starting <span class="prices-at">at</span> <span class="price">199€</span></a>
+            </article>
+            <img src="images/pic2.jpg" alt="image 2">
+        </li>
+        <li>
+            <article class="slide-content">
+                <h3>great resort</h3>
+                    <span class="subheading">
+                        Neque porro quisquam est qui dolorem ipsumquia dolor sit amet, consectetur, adipisci velit
+                    </span>
+                <a href="#" class="prices">trips starting <span class="prices-at">at</span> <span class="price">499€</span></a>
+            </article>
+            <img src="images/pic3.jpg" alt="image 3">
+        </li>
+        <li>
+            <div class="slide-content">
+                <h3>islands</h3>
+                    <span class="subheading">
+                        Neque porro quisquam est qui dolorem ipsumquia dolor sit amet, consectetur, adipisci velit
+                    </span>
+                <a href="#" class="prices">trips starting <span class="prices-at">at</span> <span class="price">399€</span></a>
+            </div>
+            <img src="images/pic4.jpg" alt="image 4">
+        </li>
+    </ul>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body { font-size: 14px; }
+/* line 36, ../scss/_breakpoints.scss */
+#body-border { display: block; }
+/* line 40, ../scss/_breakpoints.scss */
+.user-menu-wrapper { background-color: rgba(0, 75, 142, 0.8); }
+/* line 44, ../scss/_breakpoints.scss */
+.company-name-desktop { display: block; float: left; margin-left: 7%; padding: 12px 10px 8px 1px; }
+/* line 51, ../scss/_breakpoints.scss */
+#user-menu { display: block; margin: 0 7% 0 0; background: none; overflow: hidden; text-align: center; text-transform: uppercase; font-weight: normal; }
+/* line 59, ../scss/_breakpoints.scss */
+#user-menu a { float: right; margin: 15px 0 15px 20px; padding: 0; border-bottom: none; color: white; }
+/* line 66, ../scss/_breakpoints.scss */
+#user-menu .account-link { padding: 0 30px 0 20px; border-left: 1px solid #bfd2e2; background: url("../images/account-arrow.png") 90% 50% no-repeat; }
+/* line 71, ../scss/_breakpoints.scss */
+#user-menu .search { background-position: 100% 50%; }
+/* line 76, ../scss/_breakpoints.scss */
+.main-section { height: 96px; overflow: visible; }
+/* line 81, ../scss/_breakpoints.scss */
+.main-section-row { display: block; float: left; height: 96px; overflow: visible; text-transform: uppercase; }
+/* line 87, ../scss/_breakpoints.scss */
+.main-section-row > div { height: 96px; }
+/* line 90, ../scss/_breakpoints.scss */
+.main-section-row .label { margin-top: 10px; font-size: .35em; font-weight: bold; text-align: center; }
+/* line 96, ../scss/_breakpoints.scss */
+.main-section-row .selectable-menu { position: relative; background: url("../images/bottom-arrow.png") 50% 90% no-repeat; cursor: pointer; }
+/* line 100, ../scss/_breakpoints.scss */
+.main-section-row .selectable-menu .drop-down { position: absolute; top: 96px; left: 0; right: 0; z-index: 2; background-color: #fff; border: 1px solid #bfd2e2; }
+/* line 112, ../scss/_breakpoints.scss */
+.top-row { width: 8%; margin-left: 7%; border-width: 0 1px; border-style: solid; border-color: #bfd2e2; }
+/* line 118, ../scss/_breakpoints.scss */
+.top-row > div { border-bottom: none; }
+/* line 123, ../scss/_breakpoints.scss */
+.middle-row { width: 36%; border-top: none; }
+/* line 126, ../scss/_breakpoints.scss */
+.middle-row .departure-from { border-color: #bfd2e2; }
+/* line 129, ../scss/_breakpoints.scss */
+.middle-row .departure-from, .middle-row .departure-to { border-bottom: none; }
+/* line 131, ../scss/_breakpoints.scss */
+.middle-row .departure-from .icon, .middle-row .departure-to .icon { margin: 14px 5px 14px 2px; padding: 16px 17px 15px; }
+/* line 136, ../scss/_breakpoints.scss */
+.middle-row .label { display: block; }
+/* line 141, ../scss/_breakpoints.scss */
+.bottom-row { width: 42%; border-right: 1px solid #bfd2e2; border-top: none; }
+/* line 145, ../scss/_breakpoints.scss */
+.bottom-row > div { border-left: 1px solid #bfd2e2; }
+/* line 148, ../scss/_breakpoints.scss */
+.bottom-row .selectable-menu { border-bottom: none; }
+/* line 151, ../scss/_breakpoints.scss */
+.bottom-row .label { margin-left: 2px; }
+/* line 154, ../scss/_breakpoints.scss */
+.bottom-row .value { margin: 2px; padding: 8px 0; line-height: 1em; text-align: center; }
+/* line 160, ../scss/_breakpoints.scss */
+.bottom-row .with-value { padding: 15px 20px; background-position: 50% 0; }
+/* line 164, ../scss/_breakpoints.scss */
+.bottom-row .drop-down { font-size: 1em; }
+/* line 169, ../scss/_breakpoints.scss */
+#leita { width: 24%; text-align: center; }
+/* line 172, ../scss/_breakpoints.scss */
+#leita span { display: inline-block; margin-top: 22px; padding: 7px 25px 6px; border: 1px solid #bfd2e2; }
+/* line 180, ../scss/_breakpoints.scss */
+.company-logo { background: none; }
+/* line 185, ../scss/_breakpoints.scss */
+.top-row .company-name, .top-row .mobile-menu-hamburger { display: none; }
+/* line 190, ../scss/_breakpoints.scss */
+.slide-content { position: absolute; bottom: 25%; text-align: center; }
+/* line 194, ../scss/_breakpoints.scss */
+.slide-content h3 { max-width: 100%; font-size: 4.5em; line-height: 1.2em; }
+/* line 199, ../scss/_breakpoints.scss */
+.slide-content .subheading { display: block; max-width: 34%; margin: 0 auto; }
+/* line 204, ../scss/_breakpoints.scss */
+.slide-content .prices { margin-top: 17px; padding: 10px 20px; color: white; font-family: opensans_condbold, sans-serif; font-size: 1.7em; background: url("../images/price-arrow.png") 96% 50% no-repeat #ffb900; }
+/* line 212, ../scss/_breakpoints.scss */
+.slide-content .prices-at { text-transform: uppercase; }
+/* BX-Slider-related styles */
+/* line 218, ../scss/_breakpoints.scss */
+.bx-wrapper { top: 0; left: 2px; }
+/* line 222, ../scss/_breakpoints.scss */
+.bx-wrapper .bx-pager { right: 87px; bottom: 30px; }
+/* line 226, ../scss/_breakpoints.scss */
+.bx-wrapper .bx-pager .bx-pager-item { width: 22px; height: 18px; }
+/* line 230, ../scss/_breakpoints.scss */
+.bx-wrapper .bx-pager.bx-default-pager a { width: 10px; height: 10px; margin: 4px 0 0; }
+/* line 235, ../scss/_breakpoints.scss */
+.bx-wrapper .bx-pager.bx-default-pager a.active { width: 16px; height: 16px; }
+/* EO BX-Slider-related styles to override original slider styles */

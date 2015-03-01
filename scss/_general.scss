@@ -1,0 +1,305 @@
+body {
+    font-size: 12px;
+}
+
+/* IE8 fix for nav, header and article */
+nav, header, article {
+    display: block;
+}
+/* EO IE8 fix */
+
+#body-border {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    background-color: #000;
+}
+
+.company-name-desktop {
+    display: none;
+}
+
+#user-menu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: $menu-text-color;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    a {
+        display: block;
+        padding: 7px;
+        border-bottom: 1px solid $common-text-color;
+        color: $common-text-color;
+        text-decoration: none;
+    }
+    .search {
+        padding-right: 30px;
+        background: url("../images/search-icon.png") 55% 50% no-repeat;
+    }
+}
+
+.account-link {
+    text-transform: capitalize;
+}
+
+.main-section {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.main-section-row {
+    width: 100%;
+    overflow: hidden;
+    font-family: league_gothicregular, sans-serif;
+    text-transform: capitalize;
+    color: $menu-text-color;
+    font-size: 2.5em;
+}
+
+.top-row {
+    display: table;
+    > div {
+        display: table-cell;
+    }
+}
+
+.top-row {
+    > div {
+        border-bottom: 1px solid $border-color;
+        text-align: center;
+    }
+}
+
+.company-logo {
+    width: 17.5%;
+    background: url("../images/top-arrow.png") 92% 50% no-repeat;
+    vertical-align: middle;
+    a {
+        display: block;
+        img {
+            width: 48%;
+            max-width: 48px;
+            padding-top: 5px;
+        }
+    }
+}
+
+.company-name {
+    width: 65%;;
+    border-style: solid;
+    border-width: 0 1px;
+    border-color: $border-color;
+    a {
+        padding: 12px 10px 5px;
+        display: inline-block;
+    }
+}
+
+.mobile-menu-hamburger {
+    background: url("../images/mobile-menu.png") 50% 50% no-repeat;
+}
+
+.middle-row {
+    border-top: 1px solid $light-border-color;
+    .label {
+        display: none;
+        font-family: opensans_regular, sans-serif;
+    }
+}
+
+.departure-from, .departure-to {
+    float: left;
+    width: 50%;
+    border-bottom: 1px solid $light-border-color;
+    background: url("../images/right-arrow.png") 95% 25px no-repeat;
+    .departure-text-wrapper {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .icon {
+        display: inline-block;
+        padding: 11px;
+        margin: 14px 9px 14px 2px;
+    }
+    .value {
+        display: inline-block;
+        max-width: 63%;
+        padding: 13px 2px 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: top;
+        line-height: .9em;
+    }
+}
+
+.departure-from {
+    margin-right: -1px;
+    border-right: 1px solid $border-color;
+    .icon {
+        background: url("../images/departure-from.png") 0 0 no-repeat;
+        background-size: auto 100%;
+    }
+}
+
+.departure-to {
+    .icon {
+        background: url("../images/departure-to.png") 0 0 no-repeat;
+        background-size: auto 100%;
+    }
+    .drop-down {
+        border-left: 1px solid $border-color;
+    }
+}
+
+.drop-down {
+    clear: both;
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #f9f9f9;
+    text-align: center;
+}
+
+.bottom-row {
+    border-top: 1px solid $border-color;
+    > div {
+        float: left;
+    }
+    .selectable-menu {
+        width: 25%;
+        margin-right: -1px;
+        border-right: 1px solid $border-color;
+        border-bottom: 1px solid $light-border-color;
+        > span {
+            display: block;
+        }
+    }
+    .drop-down {
+        padding: 2px 15px;
+        border-left: 1px solid;
+        border-color: $border-color;
+        font-size: .8em;
+    }
+    .label {
+        margin: 2px 2px 0 15%;
+        padding-bottom: 1px;
+        font-family: opensans_regular, sans-serif;
+        font-size: .4em;
+    }
+    .value {
+        margin: 0 2px 3px 15%;
+        line-height: .9em;
+    }
+    .with-value {
+        margin-bottom: 7px;
+        padding: 12px 15px 11px 14px;
+        background: url("../images/with.png") 0 0 no-repeat;
+        background-size: auto 100%;
+    }
+}
+
+#leita {
+    width: 25%;
+    span {
+        display: block;
+        padding: 8px 0;
+        background-color: $menu-text-color;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: .9em;
+    }
+}
+
+.slide-content {
+    position: absolute;
+    bottom: 6%;
+    left: 5%;
+    right: 5%;
+    h3 {
+        max-width: 90%;
+        margin: 0;
+        font-family: opensans_condbold, sans-serif;
+        color: $common-text-color;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        line-height: 0.8em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .subheading {
+        display: none;
+        color: $common-text-color;
+        font-size: 1.2em;
+    }
+    .prices {
+        display: inline-block;
+        font-size: 1.45em;
+        font-family: opensans_regular, sans-serif;
+        color: $orange;
+        text-transform: uppercase;
+        text-decoration: none;
+        .price {
+            font-family: opensans_condbold, sans-serif;
+        }
+    }
+    .prices-at {
+        text-transform: lowercase;
+    }
+}
+
+/* BX-Slider-related styles to override original slider styles */
+.bx-wrapper {
+    position: absolute;
+    top: 145px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    max-height: 680px;
+    margin: 0;
+}
+.bx-wrapper img {
+    width: 100%;
+}
+.bx-wrapper .bx-pager {
+    right: 5%;
+    bottom: 8%;
+    width: auto;
+}
+.bx-wrapper .bx-pager .bx-pager-item {
+    width: 17px;
+    height: 7px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 5px 0 0;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    background: $orange;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: $orange;
+}
+.bxslider {
+    margin: 0;
+    li {
+        max-height: 680px;
+    }
+}
+/* EO BX-Slider-related styles */
